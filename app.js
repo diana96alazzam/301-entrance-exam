@@ -59,13 +59,28 @@ function addtask(event) {
     task1Date.textContent = inputtedTaskDate.value;
     taskList.appendChild(task1Date);
 
+    var deleteBtn = document.createElement('button');
+    deleteBtn.textContent = 'x';
+    task1Date.appendChild(deleteBtn);
+
+    deleteBtn.addEventListener('click', deleteTask);
+    function deleteTask(){
+        task1name.innerHTML = '';
+        task1Date.innerHTML = '';
+        localStorage.removeItem('Task');
+
+    }
+
+
     var firstTask = new Task(taskName, inputtedTaskDate.value);
+
 
 
     tasksArray.push(firstTask);
 
     sendTask();
 }
+
 
 
 
@@ -88,10 +103,15 @@ function retrieveTask() {
             task1Date.textContent = tasksArray[i].taskDate;
             taskList.appendChild(task1Date);
 
+            
+
         }
 
     }
 }
+
+
+
 
 retrieveTask();
 
