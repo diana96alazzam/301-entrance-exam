@@ -1,0 +1,87 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #eee;
+
+}
+
+header{
+    background-color: #6d8adbc7;
+    height: 70px;
+}
+header h1{
+    text-align: center;
+    color: #f5f5f5;
+    padding: 20px;
+    font-size: 28px;
+}
+
+main{
+    margin: 100px;
+}
+
+#leftSection{
+    background-color: #dae4ff;
+    width: 400px;    
+    height: 300px;
+    float: left;
+    margin-right: 50px;
+    padding: 30px;
+
+
+}
+
+#rightSection{
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+
+#rightSection h2{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+
+}
+
+#rightSection p{
+    font-size: 13px;
+    padding-left: 66px;
+    padding-bottom: 70px;
+    color: #375fd0;
+    font-weight: bold;
+}
+
+#currentDate{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+
+}
+
+input{
+    width: 300px;
+    padding: 10px;
+    margin-left: 40px;
+    
+}
+label{
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+
+#submitBtn{
+    background-color: #859ee3;
+    padding: 10px;
+    border: none;
+    float: right;
+    font-size: 17px;
+    color: white;
+    margin-right: 35px;
+}
