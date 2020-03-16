@@ -1,0 +1,36 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #6d8adbc7;
+}
+header h1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+body{
+    background-color: #eee;
+}
+
+
+#leftSection{
+    background-color: #dae4ff;
+    width: 40%;    
+    height: 400px;
+    float: left;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 70px;
+
+}
+
+#rightSection{
+    width: 40%;
+    height: 400px;
+    float: left;
+
+
+}
